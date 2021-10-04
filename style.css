@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .logo img{  /*mudei o tamanho por conta que a imagem que eu peguei do google era muito grande*/
+    height: 170px;
+}
+
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #7A0000;
+}
+
+header nav a:hover{
+    transition: 1.3s;
+    color: red;
+}
+
+.container {
+    position: relative;
+    margin-top: 1px;
+}
+
+.container .text {
+    position: absolute;
+    color: white;
+    margin: 40px;
+    
+}
+
+.container img{
+    width: 100%;
+    height: 30rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
