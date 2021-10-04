@@ -52,9 +52,34 @@ header nav a:hover{
 
 footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
+
+footer div {
+    margin: 10px;
+}
+
+footer .redes {
+    margin: auto;
+}
+
+footer .redes a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .redes a:hover {
+    opacity: .7;
+}
+
+footer small {
+    opacity: .7;
+}
+
+
 
 
 
